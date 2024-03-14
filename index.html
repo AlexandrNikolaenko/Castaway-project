@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <title>Castaway</title>
+</head>
+<body>
+    <header>
+        <div class="header-wrapper">
+            <div class="header-nav">
+                <div class="logo">
+                    <img src="./img/Logo.svg" alt="Castaway">
+                </div>
+                <div class="navigation">
+                    <nav class="links">
+                        <ul class="list-links">
+                            <li class="link"><a href="!" class="text-link">Home</a></li>
+                            <li class="link"><a href="!" class="text-link">Episodes</a></li>
+                            <li class="link"><a href="!" class="text-link">About</a></li>
+                            <li class="link"><a href="!" class="text-link">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="preview">
+        <div class="preview-wrapper">
+            <img src="./img/spark.svg" alt="" class="spark-img">
+            <div class="wrapper">
+                <div class="grid-wrap">
+                    <div class="main-photo-wrap">
+                        <img src="./img/Main-photo.jpg" class="main-photo" alt="It is my photo">
+                    </div>
+                    <div class="text_and_contact">
+                        <p style="font-size: 70px; letter-spacing: 7.2px; line-height: 88px;">Take your podcast to the</p><div style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 25px; max-width: 530px; width: min-content;"><div style="width: min-content;"><p style="font-size: 75px; width: min-content; letter-spacing: 7.2px;">next</p><img src="./img/Word-line.svg"></img></div><strong style="font-size: 80px; letter-spacing: 7.2px;">level</strong></div>
+                        <div class="contacts">
+                            <p style="color: #fff; font-size: 15px;">Listen on</p>
+                            <ul class="music-apps">
+                                <li class="app-img"><img src="./img/App1.svg" alt=""></li>
+                                <li class="app-img"><img src="./img/App2.svg" alt=""></li>
+                                <li class="app-img"><img src="./img/App3.svg" alt=""></li>
+                                <li class="app-img"><img src="./img/App4.svg" alt=""></li>
+                                <li class="app-img"><img src="./img/App5.svg" alt=""></li>
+                            </ul> 
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="wrapper">
+            <div class="last-episode-head">
+                <h2 class="last-episode-head-text">Latest episodes</h2>
+                <button class="view-epis">View all episodes</button>
+            </div>
+            <ul id='episode_list' class="episode_list">
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="wrapper">
+            <div class="about">
+                <div class="about-text-block">
+                    <button class="sparrow">
+                        <img src="./img/Sparrow.png" alt="" class="sparrow-img">
+                    </button>
+                    <p style="color: #118DA8; font-size: 18px; line-height: 27px;">Meet your host</p>
+                    <h4 style="font-size: 65px; line-height: 79.2px; letter-spacing: 2.88px;">Jacob Paulaner</h4>
+                    <div class="para-text-about">
+                        <p style="font-size: 22px; line-height: 33px; opacity: 0.7;">Jacob has a background in audio engineering, and has been podcasting since the early days.</p>
+                        <p style="font-size: 22px; line-height: 33px; opacity: 0.7;">He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
+                    </div>
+                </div>
+                <div class="about-photo-container">
+                    <img src="./img/About_photo.jpg" alt="" class="about-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="wrapper" style="position: relative;">
+            <div class="subscribe_form">
+                <div class="form-text-block">
+                    <p style="color: #118DA8; font-size: 18px; line-height: 27px;">Email Newsletter</p>
+                    <h3 style="font-size: 72px; line-height: 79.2px; letter-spacing: 2.88px;">Subscribe for updates</h3>
+                </div>
+                <form action="" class="form">
+                    <input type="text" placeholder="Name" style='color: #fff;' class="form-field">
+                    <input type="email" placeholder="E-mail" style='color: #fff;' class="form-field">
+                    <button type="submit" style="padding: 10px 17px; max-width: min-content;">Submit</button>
+                </form>
+            </div>
+            <img src="./img/Spark_sub.svg" alt="" style="position: absolute; top: 322px; left: -38px">
+        </div>
+    </section>
+    <section style="padding-top: 100px; padding-bottom: 100px;">
+        <div class="wrapper">
+            <div class="feedbacks">
+                <ul class="feedbacks-list">
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="wrapper">
+            <div class="footer">
+                <div class="icons">
+                    <div class="cast-logo"><img src="./img/Footer-logo.png" alt=""></div>
+                    <ul class="messagers">
+                        <li class="messager"><img src="./img/Instagram.svg" alt=""></li>
+                        <li class="messager"><img src="./img/Twitter.svg" alt=""></li>
+                        <li class="messager"><img src="./img/Facebook.svg" alt=""></li>
+                    </ul>
+                </div>
+                <nav class="navigate_links">
+                    <ul class="links">
+                        <li class="footer-link">Home</li>
+                        <li class="footer-link">About</li>
+                        <li class="footer-link">Episodes</li>
+                        <li class="footer-link">Contact</li>
+                    </ul>
+                </nav>
+                <div class="resourses">
+                    <ul class='resourses_list'>
+                        <li>Style Guide</li>
+                        <li>Instructions</li>
+                        <li>Changelog</li>
+                        <li>Credit</li>
+                        <li>Powered by Webflow</li>
+                        <li>Licenses</li>
+                    </ul>
+                </div>
+                <div class="footer-apps">
+                    <ul class="footer-apps_list">
+                        <li><img src="./img/App1.svg" alt="" class="app-img"></li>
+                        <li><img src="./img/App2.svg" alt="" class="app-img"></li>
+                        <li><img src="./img/App3.svg" alt="" class="app-img"></li>
+                        <li><img src="./img/App4.svg" alt="" class="app-img"></li>
+                        <li><img src="./img/App5.svg" alt="" class="app-img"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
