@@ -44,7 +44,14 @@ class Episode {
     }
     
     addNewFeedback(url, icon, number, header, text, button){
+        for (let ever in arguments){
+            if (typeof ever != 'string') {
+                console.log(new Error('arguments are not correct'))
+                return
+            }
+        }
         this.episodeFill.shift({url, icon, number, header, text, button});
+        console.log('Succesful added: ' + {mark, feedback, author});
     }
 }
 
@@ -77,7 +84,11 @@ class Feedback {
     }
 
     addNewFeedback(mark, feedback, author){
-        this.feedbackFill.shift({mark, feedback, author});
+        if (typeof mark == 'number' && typeof feedback == 'string' && typeof author == 'string') {
+            this.feedbackFill.shift({mark, feedback, author});
+            console.log('Succesful added: ' + {mark, feedback, author});
+        }
+        else console.log(new Error('arguments are not correct'));
     }
 }
 
